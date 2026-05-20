@@ -1,40 +1,61 @@
-# Ziyad-Esousy-UI-Final
-Final project submission by Ziyad Esousy
-# Personal Budget Management System
+# 💸 Budget Tracker App
 
-## Overview
-The Personal Budget Management System is a Flutter-based web application designed to help users manage their monthly finances. The application allows users to enter their income, add expenses, calculate total spending, and monitor their remaining balance in real time.
+A simple desktop budget tracking application created using Python and Qt (PySide6).
 
-The project focuses on creating a simple and user-friendly financial tracking interface while demonstrating UI design principles and dynamic data handling.
-
----
-
-## Features
-- Add monthly income
-- Add expenses with names and amounts
-- Automatically calculate total expenses
-- Display remaining balance
-- Edit existing expenses
-- Remove expenses
-- Dynamic UI updates using Flutter widgets
+The application allows users to:
+- Set a monthly income
+- Add expenses
+- Delete expenses
+- Automatically calculate remaining balance
 
 ---
 
-## Technologies Used
-- Flutter
-- Dart
-- Material Design
+# 📌 Features
+
+## Income Management
+Users can enter their monthly income and update it at any time.
+
+## Expense Tracking
+Users can:
+- Add expense names
+- Add expense amounts
+- View expenses in a list
+
+## Expense Deletion
+Users can select and remove expenses from the list.
+
+## Automatic Calculations
+The app automatically updates:
+- Total expenses
+- Remaining balance
+
+## Modern User Interface
+The application includes:
+- Dark mode styling
+- Rounded UI components
+- Styled buttons and input fields
 
 ---
 
-## Project Structure
-```txt
-lib/
- └── main.dart
+# 🛠 Technologies Used
 
-How to Run the Project
-Install Flutter SDK
-Open the project folder in VS Code or Android Studio
-Run the following commands:
-flutter pub get
-flutter run -d chrome
+- Python
+- PySide6 (Qt for Python)
+
+---
+
+# ▶ How to Run the Application
+
+## 1. Install Python
+Download Python from:
+
+https://www.python.org/downloads/
+
+---
+
+## 2. Install PySide6
+
+Open terminal or command prompt and run:
+
+```bash
+pip install PySide6
